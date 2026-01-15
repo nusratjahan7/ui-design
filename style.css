@@ -106,16 +106,26 @@ header{
     font-family: "Poppins", sans-serif;
     letter-spacing: 0.5px;
     margin-right: 10px;
+    cursor: pointer;
+}
+.btn1:active{
+    background-color: transparent;
+    border: 1px solid var(--dark70);
+    color: var(--dark90);
 }
 .btn2{
     padding: 9px 20px;
     border: 1px solid var(--dark70);
     border-radius: 15px;
-    /* background-color: var(--dark90); */
     color: var(--dark90);
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.btn2:active{
+    background-color: var(--dark90);
+    color: white;
 }
 /* responsive for mobile  */
 @media screen and (max-width: 576px) {
